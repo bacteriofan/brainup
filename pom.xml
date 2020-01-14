@@ -12,6 +12,16 @@
         <aspectj.version>1.8.10</aspectj.version>
         <suiteXmlFile>tests.xml</suiteXmlFile>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <systemProperties>
+            <property>
+                <name>allure.results.directory</name>
+                <value>${project.build.directory}/allure-results</value>
+            </property>
+            <property>
+                <name>allure.results.directory</name>
+                <value>C:\Program Files (x86)\Jenkins\workspace\Suite_runner\allure-results</value>
+            </property>
+        </systemProperties>
     </properties>
 
     <build>
