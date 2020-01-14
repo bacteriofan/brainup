@@ -19,7 +19,7 @@
             </property>
             <property>
                 <name>allure.results.directory</name>
-                <value>C:\Program Files (x86)\Jenkins\workspace\Suite_runner\allure-results</value>
+                <value>C:\Program Files (x86)\Jenkins\workspace\target\allure-results</value>
             </property>
         </systemProperties>
     </properties>
